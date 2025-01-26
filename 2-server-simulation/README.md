@@ -47,6 +47,13 @@ python3 python-impl.py
 
 ## Sample Output
 ```
+Simulation Table for Call-Center Example
+Caller | Interarrival Time | Arrival Time | Able Available | Baker Available | Server Chosen | Service Time | Service Begins | Completion Time | Caller Delay | Time in System
+[1, 2, 2, True, False, 'Able', 2, 2, 4, 0, 2]
+[2, 3, 5, True, False, 'Able', 4, 5, 9, 0, 4]
+[3, 2, 7, True, True, 'Baker', 6, 7, 13, 0, 6]
+.......
+
 Total calls: 480
 Average waiting time: 0.75 minutes
 Average queue length: 0.50
